@@ -1,8 +1,8 @@
 name: Telegram-Weather-Bot
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 5 * * *"  
-  workflow_dispatch:     
+    - cron: "0 5 * * *"      
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
